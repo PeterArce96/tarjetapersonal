@@ -41,7 +41,7 @@ width: 100%;
     list-style: none;
 }
 .footer-nav__link-item{
-
+    display: flex;
 }
 .footer-nav__link{
     display: flex;
