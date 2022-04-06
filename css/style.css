@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    background-image: url(https://i.postimg.cc/brSKyMR4/react-01-01.png);
+    background-image: url(https://th.bing.com/th/id/R.7cfa3f0e1a11954981743d037b97d9b3?rik=s0T2xbirvovAVw&riu=http%3a%2f%2fmilrecursos.com%2fwp-content%2fuploads%2f2012%2f06%2f5-fondos-oscuros-y-modernos-para-el-ordenador-muchos-cool.jpg&ehk=tfSskZSD1Tpn0h7zIc4IgpBOESZLosBCR4TZpNHYu70%3d&risl=&pid=ImgRaw&r=0.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +22,10 @@
     border-radius: 50%;
     overflow: hidden;
     margin: 0;
+    border-width: 4px;
+    border-color: #5a7cd2bf;
+    border-style: solid;
+    box-sizing: border-box;
 }
 .header__image{
 width: 100%;
@@ -45,20 +49,18 @@ width: 100%;
     display:flex;
     flex-direction: column;
     gap: 0.75rem;
+    text-align: center;
 }
 .article__card-title{
     font-size: 1.5rem;
-    text-align: center;
     margin: 0;
 }
 .article__card-keywords{
     font-size: 1rem;
-    text-align: center;
     margin: 0;
 }
 .article__card-description{
     font-size: 0.85rem;
-    text-align: center;
     margin: 0;
 }
 .article__card-description::after{
